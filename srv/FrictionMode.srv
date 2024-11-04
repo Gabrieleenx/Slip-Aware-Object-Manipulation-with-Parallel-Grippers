@@ -1,0 +1,4 @@
+float64 time
+int32 mode
+---
+bool success

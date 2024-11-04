@@ -1,0 +1,6 @@
+float64 t
+float64 angle
+float64 dist
+int32 mode
+---
+bool success

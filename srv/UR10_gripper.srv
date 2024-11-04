@@ -1,0 +1,7 @@
+float64 time
+string mode
+float64 lin_dist
+float64 rotation
+string recording_name
+---
+bool success

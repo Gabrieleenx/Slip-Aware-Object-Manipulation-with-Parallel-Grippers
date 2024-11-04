@@ -1,0 +1,8 @@
+<launch>
+<node name="gripper_control" type="gripper_control.py" pkg="gripper" output="screen"/>
+<node name="netft_node10" pkg="gripper" type="start_ft_sensors.py" output="screen"/>
+<node name="vel_sensor" type="vel_sensors.py" pkg="gripper" output="screen"/>
+<node name="gripper_closed_loop_fc" type="gripper_closed_loop_fc" pkg="gripper" output="screen"/>
+<node name="friction_est_node" type="friction_estimation.py" pkg="gripper" output="screen"/>
+<node name="controlled_slippage_node" type="controlled_slippage.py" pkg="gripper" output="screen"/>
+</launch>

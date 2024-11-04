@@ -1,0 +1,11 @@
+bool hi
+---
+float64 mu_c_1
+float64 mu_s_1
+float64 mu_v_1
+float64 r_1
+
+float64 mu_c_2
+float64 mu_s_2
+float64 mu_v_2
+float64 r_2
