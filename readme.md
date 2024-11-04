@@ -5,8 +5,8 @@ This repo proviedes the main repo and experimental data for the paper "Perceptio
 
 I have decided to divide the project into 3 repos: 
 * The main code and experimental data (this repo)
-* Build guide and embedded code for the gripper, see TODO add link
-* Build guide and embedded code for the velocity sensors, see TODO add link
+* Build guide and embedded code for the gripper, see https://github.com/Gabrieleenx/Parallel_gripper
+* Build guide and embedded code for the velocity sensors, see https://github.com/Gabrieleenx/Velocity_sensors
 
 Be aware that not all notations and naming is the same as in the paper, (naming could definitly be imporved in this repo). I run it on Ubuntu 20 with ROS noetic, there are also plans to migrate to ROS2.   
 
@@ -22,6 +22,8 @@ This repo is divided into sevral folders:
 * sensor_test - To calibrate the velocity sensors. 
 * test_insturctions - Some notes on how to run the experiments. 
 * UR_experiments - bag files from the experiments. 
+
+bag files are excluded from this repo as they take a bit too much memory, this means that some of the above folders might not be included. 
 
 ## src
 There is a gripper.launch file that launches the neccessary scripts for in-hand manipulation. Depending on what F/T sensors you use, you will have to update parts of the code to match. Here is a quick overview of the folder:
